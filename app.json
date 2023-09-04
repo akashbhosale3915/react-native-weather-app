@@ -4,10 +4,20 @@
     "web": {
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "react-native-app",
-    "slug": "react-native-app"
+    "plugins": ["expo-router"],
+    "name": "akki-weatherapp",
+    "slug": "react-native-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "dfd39878-0b53-41c1-9dc7-4dcca545704a"
+      }
+    },
+    "android": {
+      "package": "com.droidtech.weatherapp"
+    },
+    "owner": "akki3915"
   }
 }
